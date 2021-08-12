@@ -21,7 +21,7 @@ const createInputBar = () => {
   return div
 }
 
-const setElement = (HTMLElement: HTMLElement) => {
+const setElement = HTMLElement => {
   const height = HTMLElement.clientHeight + 10
   document.body.appendChild(HTMLElement)
   document.body.setAttribute('style', `padding-top: ${height}`)
